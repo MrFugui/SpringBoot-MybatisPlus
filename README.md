@@ -10,26 +10,26 @@
 
 ```java
 		<!--Mybatis-Plus-->
-		<dependency>
-			<groupId>com.baomidou</groupId>
-			<artifactId>mybatis-plus-boot-starter</artifactId>
-			<version>3.4.2</version>
-		</dependency>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<scope>runtime</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>1.18.22</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
+<dependency>
+<groupId>com.baomidou</groupId>
+<artifactId>mybatis-plus-boot-starter</artifactId>
+<version>3.4.2</version>
+</dependency>
+<dependency>
+<groupId>mysql</groupId>
+<artifactId>mysql-connector-java</artifactId>
+<scope>runtime</scope>
+</dependency>
+<dependency>
+<groupId>org.projectlombok</groupId>
+<artifactId>lombok</artifactId>
+<version>1.18.22</version>
+<scope>provided</scope>
+</dependency>
+<dependency>
+<groupId>org.springframework.boot</groupId>
+<artifactId>spring-boot-starter-web</artifactId>
+</dependency>
 ```
 
 ## 第二步，编写dao类，其实mybatisplus很简单，就是dao层实现basemapper就可以实现增删改查了
@@ -305,5 +305,5 @@ public class BaseController<S extends IService<E>, E> {
 
 ```
 
-好了，就是这么的简单，完整代码请移至[SpringBoot+MybatisPlus ](https://gitee.com/WangFuGui-Ma/spring-boot-kafka)查看
+好了，就是这么的简单，完整代码请移至[SpringBoot+MybatisPlus ](https://gitee.com/WangFuGui-Ma/spring-boot-mybatisplus)查看
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/a866736dfb41420f8d8a8484d1e9abb7.jpg?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5o6J5aS05Y-R55qE546L5a-M6LS1,size_10,color_FFFFFF,t_70,g_se,x_16#pic_center)
